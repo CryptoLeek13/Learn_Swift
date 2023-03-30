@@ -3,7 +3,7 @@
 ///Prints the result for the user, showing both the Celsius and Fahrenheit values.
 
 
-let celsisus = 6
+let celsisus = 6.0
 
 let fahrenheit = (celsisus * 9) / 5 + 32
-print(celsisus, fahrenheit)
+print("\(celsisus)° \(fahrenheit)°")
